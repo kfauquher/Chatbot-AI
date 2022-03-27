@@ -13,22 +13,22 @@
   },
   {"tag": "insurance",
   "patterns":  ["insurance", "no insurance", "pay", "cost"],
-  "responses": ["All insurance is accepted. If you have no insurance you can check our pricing list at www.medcarepricing$.com. We try and keep prices low and fair for anyone needing treatment, payment plans are accepted."]
+  "responses": ["All insurance is accepted. If you have no insurance you can check our pricing list at www.medcarepricing$.com//. We try and keep prices low and fair for anyone needing treatment, payment plans are accepted."]
   },
   {"tag": "hours",
   "patterns":  ["hours", "open", "close", "when do you open?", "when do you close?", "weekends", "hours of operation"],
   "responses": ["MedCare++ opens every morning at 7:00 AM and closes every evening at 5:00 PM. Please call on major holidays for hours may be effected."]
   },
   {"tag": "location",
-  "patterns":  ["location", "where are you?", "find you", "address"],
+  "patterns":  ["location", "where are you?", "find you", "address", "where"],
   "responses": ["Our address is 123 Applecore rd in Blemmingfield, NH. If you are a new patient, please arrive 30 minutes before your appointment to fill out new patient paperwork."]
   },
   {"tag": "doctor",
-  "patterns":  ["doctor", "staff", "who will be seeing me", "nurse"],
-  "responses": ["Our current staff can be found online at www.medcare.com/staff"]
+  "patterns":  ["doctor", "staff", "who will be seeing me", "nurse", "who is the doctor?"],
+  "responses": ["Our current staff can be found online at www.medcare.com/staff//"]
   },
   {"tag": "contact",
   "patterns":  ["phone number", "email", "contact", "questions"],
-  "responses": ["Please call the main office at 888-888-8888 for any further questions, or e-mail us at medcarequestions@gmail.com"]
+  "responses": ["Please call the main office at 888-888-8888 for any further questions, or e-mail us at medcarequestions@gmail.com//"]
   }
 ]}
