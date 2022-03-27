@@ -1,0 +1,22 @@
+{"intent":  [
+  {"tag": "greetings",
+  "patterns":  ["hello", "hey there", "greetings", "pleased to meet you", "hi", "hey"],
+  "responses": ["Hello! What can I help you with today?", "Hey there! What can I help you with today?", "Greetings Friend! What can I help you with today?"]
+  },
+  {"tag": "goodbye",
+  "patterns":  ["goodbye", "have a nice day", "bye"],
+  "responses": ["Thank you for your time, have a nice day!", "Have a nice day, and thank you for using our Chatbot Medical Scheduling service!", "Stay safe, happy and healthy!"]
+  },
+  {"tag": "scheduling",
+  "patterns":  ["schedule", "calender", "doctor", "appointment"],
+  "responses": ["You can set up an appointment over the phone by calling 888-888-8888 between the hours of 7:00 AM and 5:00 PM EST."]
+  },
+  {"tag": "insurance",
+  "patterns":  ["insurance", "no insurance", "pay", "cost"],
+  "responses": ["All insurance is accepted. If you have no insurance you can check our pricing list at www.medcarepricing$.com. We try and keep prices low and fair for anyone needing treatment, payment plans are accepted."]
+  },
+  {"tag": "hours",
+  "patterns":  ["hours", "open", "close", "when do you open?", "when do you close?", "weekends", "hours of operation"],
+  "responses": ["MedCare++ opens every morning at 7:00 AM and closes every evening at 5:00 PM. Please call on major holidays for hours may be effected."]
+  }
+]}
