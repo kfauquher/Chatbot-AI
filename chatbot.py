@@ -1,6 +1,3 @@
-#Author Name: Kylie Fauquher
-#Date: 03/2022
-
 import random
 import json
 import pickle
